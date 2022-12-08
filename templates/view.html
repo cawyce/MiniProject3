@@ -1,0 +1,16 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>List</title>  
+</head>  
+<body>  
+   
+<h3>Product Information View</h3>   
+    <form action="/list" method="post" enctype="multipart/form-data">
+    
+        {{ df.to_html(classes="table table-striped") | safe}}
+<br>
+    </form>
+   
+</body>  
+</html>  
