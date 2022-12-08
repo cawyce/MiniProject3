@@ -1,3 +1,5 @@
+#dns is https://myapp.mini-project-3.dynv6.net/
+
 from flask import Flask,render_template,request
 import sqlite3
 import pandas as pd
